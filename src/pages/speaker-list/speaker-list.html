@@ -3,7 +3,7 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Speakers</ion-title>
+    <ion-title>Disertantes</ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -31,12 +31,12 @@
                 </button>
 
                 <button ion-item (click)="goToSpeakerDetail(speaker)">
-                  <h3>About {{speaker.name}}</h3>
+                  <h3>Sobre {{speaker.name}}</h3>
                 </button>
               </ion-list>
             </ion-card-content>
 
-            <ion-row no-padding>
+            <!-- <ion-row no-padding>
               <ion-col col-12 col-lg-auto text-center text-lg-left>
                 <button ion-button clear small color="primary" icon-start (click)="goToSpeakerTwitter(speaker)">
                   <ion-icon name="logo-twitter"></ion-icon>
@@ -55,7 +55,7 @@
                   Contact
                 </button>
               </ion-col>
-            </ion-row>
+            </ion-row> -->
 
           </ion-card>
 

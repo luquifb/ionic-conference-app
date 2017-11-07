@@ -8,7 +8,7 @@ import { PopoverPage } from '../about-popover/about-popover';
   templateUrl: 'about.html'
 })
 export class AboutPage {
-  conferenceDate = '2047-05-17';
+  conferenceDate = '2018-05-12';
 
   constructor(public popoverCtrl: PopoverController) { }
 
