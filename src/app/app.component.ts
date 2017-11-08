@@ -53,7 +53,7 @@ export class ConferenceApp {
     { title: 'Iniciar Sesión', name: 'LoginPage', component: LoginPage, icon: 'ios-log-in-outline' },
     { title: 'Crear cuenta', name: 'SignupPage', component: SignupPage, icon: 'ios-person-add-outline' }
   ];
-  rootPage: any;
+  rootPage: any = LoginPage;
 
   constructor(
     public events: Events,
