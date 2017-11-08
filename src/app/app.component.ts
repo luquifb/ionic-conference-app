@@ -13,7 +13,6 @@ import { SignupPage } from '../pages/signup/signup';
 import { TabsPage } from '../pages/tabs-page/tabs-page';
 import { SchedulePage } from '../pages/schedule/schedule';
 import { SpeakerListPage } from '../pages/speaker-list/speaker-list';
-import { StaffListPage } from '../pages/staff-list/staff-list';
 
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
@@ -45,12 +44,10 @@ export class ConferenceApp {
     { title: 'Disertantes', name: 'TabsPage', component: TabsPage, tabComponent: SpeakerListPage, index: 1, icon: 'ios-contacts-outline' },
     { title: 'Mapa', name: 'TabsPage', component: TabsPage, tabComponent: MapPage, index: 2, icon: 'ios-map-outline' },
     { title: 'Sobre el FIE', name: 'TabsPage', component: TabsPage, tabComponent: AboutPage, index: 3, icon: 'ios-information-circle-outline' },
-    { title: 'Staff', name: 'TabsPage', component: TabsPage, tabComponent: StaffListPage, index: 4, icon: 'ios-contacts-outline' },
-
   ];
   loggedInPages: PageInterface[] = [
-    { title: 'Account', name: 'AccountPage', component: AccountPage, icon: 'ios-person-outline' },
-    { title: 'Logout', name: 'TabsPage', component: TabsPage, icon: 'ios-log-out-outline', logsOut: true }
+    { title: 'Mi cuenta', name: 'AccountPage', component: AccountPage, icon: 'ios-person-outline' },
+    { title: 'Cerrar Sesión', name: 'TabsPage', component: TabsPage, icon: 'ios-log-out-outline', logsOut: true }
   ];
   loggedOutPages: PageInterface[] = [
     { title: 'Iniciar Sesión', name: 'LoginPage', component: LoginPage, icon: 'ios-log-in-outline' },

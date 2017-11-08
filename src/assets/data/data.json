@@ -9,7 +9,7 @@
         "timeStart": "9:00 am",
         "timeEnd": "9:30 am",
         "location": "Kempes",
-        "tracks": ["Información"],
+        "tracks": ["Día 1"],
         "id": "1"
       }, {
         "name": "Reunión Informativa",
@@ -18,7 +18,7 @@
         "speakerNames": ["Jimena Flores"],
         "timeStart": "9:30 am",
         "timeEnd": "10:30 am",
-        "tracks": ["Información"],
+        "tracks": ["Día 1"],
         "id": "2"
       }]
     }, {
@@ -30,8 +30,8 @@
         "speakerNames": ["Staff"],
         "timeStart": "10:30 am",
         "timeEnd": "11:30 am",
-        "tracks": ["Traslado"],
-        "id": "5"
+        "tracks": ["Día 1"],
+        "id": "3"
       }]
     }, {
       "time": "11:00 am",
@@ -41,8 +41,8 @@
         "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
         "timeStart": "11:00 am",
         "timeEnd": "12:00 am",
-        "tracks": ["Traslado"],
-        "id": "9"
+        "tracks": ["Día 1"],
+        "id": "4"
       }]
     }, {
       "time": "1:00 pm",
@@ -53,8 +53,8 @@
         "speakerNames": ["Paul Puppy"],
         "timeStart": "1:00 pm",
         "timeEnd": "2:00 pm",
-        "tracks": ["Comida"],
-        "id": "13"
+        "tracks": ["Día 1"],
+        "id": "5"
       }]
     }, {
       "time": "2:00 pm",
@@ -64,8 +64,8 @@
         "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
         "timeStart": "2:00 pm",
         "timeEnd": "2:30 pm",
-        "tracks": ["Tiempo Libre"],
-        "id": "16"
+        "tracks": ["Día 1"],
+        "id": "6"
       }, {
         "name": "Explicación competencia 'El Emprendedor'",
         "location": "Salon Principal",
@@ -73,8 +73,8 @@
         "speakerNames": ["Staff"],
         "timeStart": "2:30 pm",
         "timeEnd": "3:00 pm",
-        "tracks": ["Información"],
-        "id": "17"
+        "tracks": ["Día 1"],
+        "id": "7"
       }]
     }, {
       "time": "3:00",
@@ -85,8 +85,94 @@
         "speakerNames": ["Ted Turtle"],
         "timeStart": "3:00 pm",
         "timeEnd": "4:30 pm",
-        "tracks": ["Emprendedurismo"],
-        "id": "19"
+        "tracks": ["Día 1"],
+        "id": "8"
+      }]
+    }, {
+      "time": "9:00 am",
+      "sessions": [{
+        "name": "Bienvenida en Córdoba2",
+        "timeStart": "9:00 am",
+        "timeEnd": "9:30 am",
+        "location": "Kempes",
+        "tracks": ["Día 2"],
+        "id": "9"
+      }, {
+        "name": "Reunión Informativa",
+        "location": "Kempes",
+        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+        "speakerNames": ["Jimena Flores"],
+        "timeStart": "9:30 am",
+        "timeEnd": "10:30 am",
+        "tracks": ["Día 2"],
+        "id": "10"
+      }]
+    }, {
+      "time": "10:00 am",
+      "sessions": [{
+        "name": "Traslado a Tanti",
+        "location": "Tanti",
+        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+        "speakerNames": ["Staff"],
+        "timeStart": "10:30 am",
+        "timeEnd": "11:30 am",
+        "tracks": ["Día 2"],
+        "id": "11"
+      }]
+    }, {
+      "time": "11:00 am",
+      "sessions": [{
+        "name": "Arribo2",
+        "location": "Tanti",
+        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+        "timeStart": "11:00 am",
+        "timeEnd": "12:00 am",
+        "tracks": ["Día 2"],
+        "id": "12"
+      }]
+    }, {
+      "time": "1:00 pm",
+      "sessions": [{
+        "name": "Almuerzo",
+        "location": "Comedor",
+        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+        "speakerNames": ["Paul Puppy"],
+        "timeStart": "1:00 pm",
+        "timeEnd": "2:00 pm",
+        "tracks": ["Día 3"],
+        "id": "13"
+      }]
+    }, {
+      "time": "2:00 pm",
+      "sessions": [{
+        "name": "Tiempo Libre",
+        "location": "Parque",
+        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+        "timeStart": "2:00 pm",
+        "timeEnd": "2:30 pm",
+        "tracks": ["Día 3"],
+        "id": "14"
+      }, {
+        "name": "Explicación competencia 'El Emprendedor'",
+        "location": "Salon Principal",
+        "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+        "speakerNames": ["Staff"],
+        "timeStart": "2:30 pm",
+        "timeEnd": "3:00 pm",
+        "tracks": ["Día 3"],
+        "id": "15"
+      }]
+    }, {
+      "time": "3:00",
+      "sessions": [{
+        "name": "Conferencia Magistral",
+        "location": "Salon Principal",
+        "description": "Fernando Tamayo va a contar su historia con Yaqua.",
+        "speakerNames": ["Ted Turtle"],
+        "timeStart": "3:00 pm",
+        "timeEnd": "4:30 pm",
+        "tracks": ["Día 3"],
+        "id": "16"
       }]
     }]
   }],
@@ -139,6 +225,58 @@
     "about": "Senior Manager Operational of The Coca-Cola Company",
     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "location": "EEUU",
+    "email": "rebecca@coca.com",
+    "phone": "+1-541-754-3010",
+    "id": "5"
+  }],
+
+  "delegations": [{
+    "name": "Fernando Tamayo",
+    "profilePic": "assets/img/speakers/speaker-1.png",
+    "referent": "Juan",
+    "about": "Fundador y Director General de Yaqua",
+    "quantity": "10",
+    "country": "Peru",
+    "email": "fernando@yaqua.com",
+    "phone": "+1-541-754-3010",
+    "id": "1"
+  }, {
+    "name": "Marylouise Fitzgibbon",
+    "profilePic": "assets/img/speakers/speaker-2.png",
+    "referent": "Juan",
+    "about": "General Manager of Disney's Grand Floridian Resort & Spa",
+    "quantity": "10",
+    "country": "Peru",
+    "email": "mary@disney.com",
+    "phone": "+1-541-754-3010",
+    "id": "2"
+  }, {
+    "name": "Guilherme Reischl",
+    "profilePic": "assets/img/speakers/speaker-3.png",
+    "referent": "Juan",
+    "about": "Propietario de Egali",
+    "quantity": "10",
+    "country": "Peru",
+    "email": "guilherme@egali.com",
+    "phone": "+1-541-754-3010",
+    "id": "3"
+  }, {
+    "name": "Isaac Clawson",
+    "profilePic": "assets/img/speakers/speaker-4.png",
+    "referent": "Juan",
+    "about": "Director General de FedEx",
+    "quantity": "10",
+    "country": "Peru",
+    "email": "eva@example.com",
+    "phone": "+1-541-754-3010",
+    "id": "4"
+  }, {
+    "name": "Rebecca Heredia Castillo",
+    "profilePic": "assets/img/speakers/speaker-5.png",
+    "referent": "Juan",
+    "about": "Senior Manager Operational of The Coca-Cola Company",
+    "quantity": "10",
+    "country": "Peru",
     "email": "rebecca@coca.com",
     "phone": "+1-541-754-3010",
     "id": "5"
