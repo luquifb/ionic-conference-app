@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Staff</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="outer-content staff-list">
+  <ion-list [virtualScroll]="staffs">
+    <ion-grid fixed>
+      <ion-row align-items-stretch>
+        <ion-col col-12 col-md-6 align-self-stretch align-self-center *virtualItem="let staff" approxItemHeight="457px">
+          <ion-card class="staff-card">
+            <ion-card-header>
+              <button ion-item detail-none (click)="goToStaffDetail(staff)">
+                <ion-avatar item-start>
+                  <img [src]="staff.profilePic" alt="Staff profile pic">
+                </ion-avatar>
+                {{staff.name}}
+                <span>({{staff.location}})</span>
+              </button>
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-list>
+</ion-content>

@@ -95,7 +95,7 @@
   "speakers": [{
     "name": "Fernando Tamayo",
     "profilePic": "assets/img/speakers/speaker-1.png",
-    "twitter": "ionicframework",
+    "twitter": "fiecordoba",
     "about": "Fundador y Director General de Yaqua",
     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "location": "Peru",
@@ -105,7 +105,7 @@
   }, {
     "name": "Marylouise Fitzgibbon",
     "profilePic": "assets/img/speakers/speaker-2.png",
-    "twitter": "ionicframework",
+    "twitter": "fiecordoba",
     "about": "General Manager of Disney's Grand Floridian Resort & Spa",
     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "location": "Orlando, FL - EEUU",
@@ -115,7 +115,7 @@
   }, {
     "name": "Guilherme Reischl",
     "profilePic": "assets/img/speakers/speaker-3.png",
-    "twitter": "ionicframework",
+    "twitter": "fiecordoba",
     "about": "Propietario de Egali",
     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "location": "Brasil",
@@ -125,7 +125,7 @@
   }, {
     "name": "Isaac Clawson",
     "profilePic": "assets/img/speakers/speaker-4.png",
-    "twitter": "ionicframework",
+    "twitter": "fiecordoba",
     "about": "Director General de FedEx",
     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "location": "Mexico",
@@ -135,7 +135,7 @@
   }, {
     "name": "Rebecca Heredia Castillo",
     "profilePic": "assets/img/speakers/speaker-5.png",
-    "twitter": "ionicframework",
+    "twitter": "fiecordoba",
     "about": "Senior Manager Operational of The Coca-Cola Company",
     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "location": "EEUU",
@@ -144,6 +144,47 @@
     "id": "5"
   }],
 
+  "staff": [{
+    "name": "Jimena Flores",
+    "profilePic": "assets/img/logo-fie-2018.png",
+    "instagram": "fiecordoba",
+    "area": "Direccion",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "email": "jimena@fie.com",
+    "id": "1"
+  }, {
+    "name": "Lucia Ichazo",
+    "profilePic": "assets/img/logo-fie-2018.png",
+    "instagram": "fiecordoba",
+    "area": "Comunicacion",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "email": "lucia@fie.com",
+    "id": "2"
+  }, {
+    "name": "Majo Mignone",
+    "profilePic": "assets/img/logo-fie-2018.png",
+    "instagram": "fiecordoba",
+    "area": "Participantes",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "email": "majo@fie.com",
+    "id": "3"
+  }, {
+    "name": "Agus Pisano",
+    "profilePic": "assets/img/logo-fie-2018.png",
+    "instagram": "fiecordoba",
+    "area": "Audiovisual",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "email": "agus@fie.com",
+    "id": "4"
+  }, {
+    "name": "Luqui Fernandez Bodereau",
+    "profilePic": "assets/img/logo-fie-2018.png",
+    "instagram": "fiecordoba",
+    "area": "Digital",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "email": "luqui@fie.com",
+    "id": "5"
+  }],
 
   "map": [{
     "name": "Hotel Colonia de Vacaciones del Personal del Banco de la Provincia de Buenos Aires",

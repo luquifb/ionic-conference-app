@@ -140,6 +140,16 @@ export class ConferenceData {
     });
   }
 
+  getStaffs() {
+    return this.load().map((data: any) => {
+      return data.staffs.sort((a: any, b: any) => {
+        let aName = a.name.split(' ').pop();
+        let bName = b.name.split(' ').pop();
+        return aName.localeCompare(bName);
+      });
+    });
+  }
+
   getTracks() {
     return this.load().map((data: any) => {
       return data.tracks.sort();
