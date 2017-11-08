@@ -40,18 +40,18 @@ export class ConferenceApp {
   // the left menu only works after login
   // the login page disables the left menu
   appPages: PageInterface[] = [
-    { title: 'Schedule', name: 'TabsPage', component: TabsPage, tabComponent: SchedulePage, index: 0, icon: 'calendar' },
-    { title: 'Speakers', name: 'TabsPage', component: TabsPage, tabComponent: SpeakerListPage, index: 1, icon: 'contacts' },
-    { title: 'Map', name: 'TabsPage', component: TabsPage, tabComponent: MapPage, index: 2, icon: 'map' },
-    { title: 'About', name: 'TabsPage', component: TabsPage, tabComponent: AboutPage, index: 3, icon: 'information-circle' }
+    { title: 'Cronograma', name: 'TabsPage', component: TabsPage, tabComponent: SchedulePage, index: 0, icon: 'ios-calendar-outline' },
+    { title: 'Disertantes', name: 'TabsPage', component: TabsPage, tabComponent: SpeakerListPage, index: 1, icon: 'ios-contacts-outline' },
+    { title: 'Mapa', name: 'TabsPage', component: TabsPage, tabComponent: MapPage, index: 2, icon: 'ios-map-outline' },
+    { title: 'Sobre el FIE', name: 'TabsPage', component: TabsPage, tabComponent: AboutPage, index: 3, icon: 'ios-information-circle-outline' }
   ];
   loggedInPages: PageInterface[] = [
-    { title: 'Account', name: 'AccountPage', component: AccountPage, icon: 'person' },
-    { title: 'Logout', name: 'TabsPage', component: TabsPage, icon: 'log-out', logsOut: true }
+    { title: 'Account', name: 'AccountPage', component: AccountPage, icon: 'ios-person-outline' },
+    { title: 'Logout', name: 'TabsPage', component: TabsPage, icon: 'ios-log-out-outline', logsOut: true }
   ];
   loggedOutPages: PageInterface[] = [
-    { title: 'Login', name: 'LoginPage', component: LoginPage, icon: 'log-in' },
-    { title: 'Signup', name: 'SignupPage', component: SignupPage, icon: 'person-add' }
+    { title: 'Iniciar Sesión', name: 'LoginPage', component: LoginPage, icon: 'ios-log-in-outline' },
+    { title: 'Crear cuenta', name: 'SignupPage', component: SignupPage, icon: 'ios-person-add-outline' }
   ];
   rootPage: any;
 

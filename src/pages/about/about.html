@@ -3,8 +3,7 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Sobre el FIE</ion-title>
-
+    <ion-title class="title">Sobre el FIE</ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -13,20 +12,25 @@
     <img src="assets/img/logo-fie-2018.png" alt="fie">
   </div>
   <div padding class="about-info">
-    <h4>Foro Internacional de Emprendedores</h4>
+    <h4><b>Foro Internacional de Emprendedores</b></h4>
 
     <ion-list no-lines>
       <ion-item>
         <ion-icon name="calendar" item-start></ion-icon>
-        <ion-label>Fecha</ion-label>
-        <ion-datetime displayFormat="MMM DD, YYYY" max="2056" [(ngModel)]="conferenceDate"></ion-datetime>
+        <ion-label>Comienza</ion-label>
+        <ion-label>12/05/2018</ion-label>
+      </ion-item>
+
+      <ion-item>
+        <ion-icon name="calendar" item-start></ion-icon>
+        <ion-label>Termina</ion-label>
+        <ion-label>19/05/2018</ion-label>
       </ion-item>
 
       <ion-item>
         <ion-icon name="pin" item-start></ion-icon>
         <ion-label>Lugar</ion-label>
         <ion-label>Córdoba, Argentina</ion-label>
-
       </ion-item>
     </ion-list>
 

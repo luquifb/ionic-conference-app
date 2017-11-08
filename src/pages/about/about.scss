@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+.title {
+  text-align: center;
+}
+
 .about-header img {
   max-width: 200px;
   min-height: 115px;
@@ -13,14 +17,18 @@
   padding: 25px 0 20px 0;
 }
 
-.about-info p {
+.about-info {
   color: #697072;
-  text-align: left;
+  text-align: center;
 }
 
 .about-info ion-icon {
   color: color($colors, primary);
   width: 20px;
+}
+
+.about-info ion-label {
+  font-size: 15px;
 }
 
 .md,

@@ -8,8 +8,10 @@ page-speaker-list {
     display: flex;
     flex-direction: column;
 
-    ion-card-content {
+    ion-card-header span {
       flex: 1 1 auto;
+      font-size: 15px;
+      color: color($colors, primary);
     }
   }
 
