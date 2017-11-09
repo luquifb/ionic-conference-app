@@ -7,6 +7,7 @@ import { MapPage } from '../map/map';
 import { SchedulePage } from '../schedule/schedule';
 import { SpeakerListPage } from '../speaker-list/speaker-list';
 import { DelegationsPage } from '../delegations/delegations';
+import { SponsorsPage } from '../sponsors/sponsors';
 
 @Component({
   templateUrl: 'tabs-page.html'
@@ -18,6 +19,7 @@ export class TabsPage {
   tab3Root: any = MapPage;
   tab4Root: any = AboutPage;
   tab5Root: any = DelegationsPage;
+  tab6Root: any = SponsorsPage;
   mySelectedIndex: number;
 
   constructor(navParams: NavParams) {

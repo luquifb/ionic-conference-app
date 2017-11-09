@@ -24,6 +24,8 @@ import { SpeakerListPage } from '../pages/speaker-list/speaker-list';
 import { TabsPage } from '../pages/tabs-page/tabs-page';
 import { DelegationsPage } from '../pages/delegations/delegations';
 import { DelegationDetailPage } from '../pages/delegation-detail/delegation-detail';
+import { SponsorsPage } from '../pages/sponsors/sponsors';
+import { SponsorDetailPage } from '../pages/sponsor-detail/sponsor-detail';
 
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
@@ -44,6 +46,8 @@ import { UserData } from '../providers/user-data';
     SpeakerListPage,
     DelegationsPage,
     DelegationDetailPage,
+    SponsorsPage,
+    SponsorDetailPage,
     TabsPage
   ],
   imports: [
@@ -58,7 +62,9 @@ import { UserData } from '../providers/user-data';
         { component: SpeakerListPage, name: 'SpeakerList', segment: 'speakerList' },
         { component: SpeakerDetailPage, name: 'SpeakerDetail', segment: 'speakerDetail/:speakerId' },
         { component: DelegationsPage, name: 'Delegations', segment: 'delegations' },
-        { component: DelegationDetailPage, name: 'DelegationDetail', segment: 'delegationDetail/:delegationId' },        
+        { component: DelegationDetailPage, name: 'DelegationDetail', segment: 'delegationDetail/:delegationId' },
+        { component: SponsorsPage, name: 'Sponsors', segment: 'sponsors' },
+        { component: SponsorDetailPage, name: 'SponsorDetail', segment: 'sponsorDetail/:sponsorId' },        
         { component: MapPage, name: 'Map', segment: 'map' },
         { component: AboutPage, name: 'About', segment: 'about' },
         { component: LoginPage, name: 'LoginPage', segment: 'login' },
@@ -83,6 +89,8 @@ import { UserData } from '../providers/user-data';
     SpeakerListPage,
     DelegationsPage,
     DelegationDetailPage,
+    SponsorsPage,
+    SponsorDetailPage,
     TabsPage
   ],
   providers: [

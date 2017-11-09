@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Sponsor</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="sponsor-detail">
+  <div text-center *ngIf="sponsor">
+    <img [src]="sponsor.profilePic" [alt]="sponsor.name"><br>
+    <h4>{{sponsor?.name}}</h4>
+
+    <p>{{sponsor?.description}}</p>
+    <p><b>Contacto:</b> {{sponsor?.email}} / {{sponsor?.phone}}</p>
+
+  </div>
+</ion-content>

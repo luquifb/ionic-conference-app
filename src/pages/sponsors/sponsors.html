@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Sponsors</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="outer-content sponsors-list">
+  <ion-list [virtualScroll]="sponsors">
+    <ion-grid fixed>
+      <ion-row align-items-stretch>
+        <ion-col col-12 col-md-6 align-self-stretch align-self-center *virtualItem="let sponsors" approxItemHeight="457px">
+          <ion-card class="sponsors-card">
+            <ion-card-header>
+              <button ion-item detail-none (click)="goToSponsorDetail(sponsors)">
+                <ion-avatar item-start>
+                  <img [src]="sponsors.profilePic" alt="Sponsor profile pic">
+                </ion-avatar>
+                {{sponsors.name}}
+              </button>
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-list>
+</ion-content>
