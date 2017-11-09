@@ -22,7 +22,8 @@ import { SignupPage } from '../pages/signup/signup';
 import { SpeakerDetailPage } from '../pages/speaker-detail/speaker-detail';
 import { SpeakerListPage } from '../pages/speaker-list/speaker-list';
 import { TabsPage } from '../pages/tabs-page/tabs-page';
-
+import { DelegationsPage } from '../pages/delegations/delegations';
+import { DelegationDetailPage } from '../pages/delegation-detail/delegation-detail';
 
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
@@ -41,6 +42,8 @@ import { UserData } from '../providers/user-data';
     SignupPage,
     SpeakerDetailPage,
     SpeakerListPage,
+    DelegationsPage,
+    DelegationDetailPage,
     TabsPage
   ],
   imports: [
@@ -54,6 +57,8 @@ import { UserData } from '../providers/user-data';
         { component: ScheduleFilterPage, name: 'ScheduleFilter', segment: 'scheduleFilter' },
         { component: SpeakerListPage, name: 'SpeakerList', segment: 'speakerList' },
         { component: SpeakerDetailPage, name: 'SpeakerDetail', segment: 'speakerDetail/:speakerId' },
+        { component: DelegationsPage, name: 'Delegations', segment: 'delegations' },
+        { component: DelegationDetailPage, name: 'DelegationDetail', segment: 'delegationDetail/:delegationId' },        
         { component: MapPage, name: 'Map', segment: 'map' },
         { component: AboutPage, name: 'About', segment: 'about' },
         { component: LoginPage, name: 'LoginPage', segment: 'login' },
@@ -76,6 +81,8 @@ import { UserData } from '../providers/user-data';
     SignupPage,
     SpeakerDetailPage,
     SpeakerListPage,
+    DelegationsPage,
+    DelegationDetailPage,
     TabsPage
   ],
   providers: [

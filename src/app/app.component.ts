@@ -13,6 +13,7 @@ import { SignupPage } from '../pages/signup/signup';
 import { TabsPage } from '../pages/tabs-page/tabs-page';
 import { SchedulePage } from '../pages/schedule/schedule';
 import { SpeakerListPage } from '../pages/speaker-list/speaker-list';
+import { DelegationsPage } from '../pages/delegations/delegations';
 
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
@@ -44,6 +45,7 @@ export class ConferenceApp {
     { title: 'Disertantes', name: 'TabsPage', component: TabsPage, tabComponent: SpeakerListPage, index: 1, icon: 'ios-contacts-outline' },
     { title: 'Mapa', name: 'TabsPage', component: TabsPage, tabComponent: MapPage, index: 2, icon: 'ios-map-outline' },
     { title: 'Sobre el FIE', name: 'TabsPage', component: TabsPage, tabComponent: AboutPage, index: 3, icon: 'ios-information-circle-outline' },
+    { title: 'Delegaciones', name: 'TabsPage', component: TabsPage, tabComponent: DelegationsPage, index: 4, icon: 'ios-flag-outline' },
   ];
   loggedInPages: PageInterface[] = [
     { title: 'Mi cuenta', name: 'AccountPage', component: AccountPage, icon: 'ios-person-outline' },

@@ -4,11 +4,11 @@ import { NavController, NavParams } from 'ionic-angular';
 import { ConferenceData } from '../../providers/conference-data';
 
 @Component({
-  selector: 'page-speaker-detail',
-  templateUrl: 'speaker-detail.html'
+  selector: 'page-delegation-detail',
+  templateUrl: 'delegation-detail.html',
 })
-export class SpeakerDetailPage {
-  speaker: any;
+export class DelegationDetailPage {
+  delegation: any;
 
   constructor(public dataProvider: ConferenceData,
               public navCtrl: NavController,
@@ -17,10 +17,10 @@ export class SpeakerDetailPage {
 
   ionViewWillEnter() {
     this.dataProvider.load().subscribe((data: any) => {
-      if (data && data.speakers) {
-        for (const speaker of data.speakers) {
-          if (speaker && speaker.id === this.navParams.data.speakerId) {
-            this.speaker = speaker;
+      if (data && data.delegations) {
+        for (const delegation of data.delegations) {
+          if (delegation && delegation.id === this.navParams.data.delegationId) {
+            this.delegation = delegation;
             break;
           }
         }

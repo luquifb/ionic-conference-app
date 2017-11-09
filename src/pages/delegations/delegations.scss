@@ -1,3 +1,33 @@
-page-delegations {
+page-delegations-list {
+  .scroll-content {
+    background: #EDEDED;
+  }
 
+  .delegations-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    ion-card-header span {
+      flex: 1 1 auto;
+      font-size: 15px;
+      color: color($colors, primary);
+    }
+  }
+
+  // Todo: remove when this issue https://github.com/ionic-team/ionic/issues/11212 is fixed
+  @media(min-width: 769px) {
+    .delegations-card {
+      height: 370px;
+    }
+  }
+
+  .delegations-card ion-card-header .item {
+    padding: 4px 16px;
+  }
+
+  .delegations-card ion-card-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

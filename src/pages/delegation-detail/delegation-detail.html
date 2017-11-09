@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Delegación</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="delegation-detail">
+  <div text-center *ngIf="delegation">
+    <img [src]="delegation.profilePic" [alt]="delegation.name"><br>
+    <h4>{{delegation?.name}}</h4>
+    <h5 class="country">País: {{delegation?.country}}</h5>
+
+    <p><b>Jefe de Delegación:</b> {{delegation?.jefeDelegacion}}</p>
+    <p><b>Contacto:</b> {{delegation?.email}}</p>
+
+  </div>
+</ion-content>
