@@ -7,7 +7,7 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content class="outer-content sponsors-list">
+<!-- <ion-content class="outer-content sponsors-list">
   <ion-list [virtualScroll]="sponsors">
     <ion-grid fixed>
       <ion-row align-items-stretch>
@@ -26,4 +26,21 @@
       </ion-row>
     </ion-grid>
   </ion-list>
+</ion-content> -->
+
+<ion-content class="outer-content sponsors-list">
+
+  <ion-list [virtualScroll]="sponsors">
+
+    <ion-item *virtualItem="let sponsors">
+      <ion-thumbnail item-start>
+        <img [src]="sponsors.profilePic">
+      </ion-thumbnail>
+      <h2>{{sponsors.name}}</h2>
+      <p>{{sponsors.category}}</p>
+      <button ion-button clear item-end (click)="goToSponsorDetail(sponsors)">Ver</button>
+    </ion-item>
+
+  </ion-list>
+
 </ion-content>

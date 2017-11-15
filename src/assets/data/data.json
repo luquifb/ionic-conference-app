@@ -285,6 +285,7 @@
   "sponsors": [{
     "name": "Segno IT",
     "profilePic": "assets/img/sponsors/segnoit.jpg",
+    "category": "Sponsor Participante",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "email": "sponsor@fie.com",
     "phone": "+1-541-754-3010",
@@ -292,6 +293,7 @@
   }, {
     "name": "Atrezzo",
     "profilePic": "assets/img/sponsors/atrezzo.jpg",
+    "category": "Sponsor Difusión",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "email": "sponsor@fie.com",
     "phone": "+1-541-754-3010",
@@ -299,6 +301,7 @@
   }, {
     "name": "Bancor",
     "profilePic": "assets/img/sponsors/bancor.jpg",
+    "category": "Sponsor Plata",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "email": "sponsor@fie.com",
     "phone": "+1-541-754-3010",
@@ -306,10 +309,59 @@
   }, {
     "name": "Coca-Cola",
     "profilePic": "assets/img/sponsors/coca-cola.jpg",
+    "category": "Sponsor Principal",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "email": "sponsor@fie.com",
     "phone": "+1-541-754-3010",
     "id": "4"
+  }, {
+    "name": "Vanesa",
+    "profilePic": "assets/img/sponsors/vanesa.jpg",
+    "category": "Sponsor Principal",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "email": "sponsor@fie.com",
+    "phone": "+1-541-754-3010",
+    "id": "5"
+  }, {
+    "name": "Universidad Siglo 21",
+    "profilePic": "assets/img/sponsors/siglo21.jpg",
+    "category": "Sponsor Académico",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "email": "sponsor@fie.com",
+    "phone": "+1-541-754-3010",
+    "id": "6"
+  }, {
+    "name": "Red Minetti",
+    "profilePic": "assets/img/sponsors/minetti.jpg",
+    "category": "Sponsor Plata",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "email": "sponsor@fie.com",
+    "phone": "+1-541-754-3010",
+    "id": "7"
+  }, {
+    "name": "Arcor",
+    "profilePic": "assets/img/sponsors/arcor.jpg",
+    "category": "Sponsor Participante",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "email": "sponsor@fie.com",
+    "phone": "+1-541-754-3010",
+    "id": "8"
+  }, {
+    "name": "Divo Trajes",
+    "profilePic": "assets/img/sponsors/divo-trajes.jpg",
+    "category": "Sponsor Participante",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "email": "sponsor@fie.com",
+    "phone": "+1-541-754-3010",
+    "id": "9"
+  }, {
+    "name": "La Voz del Interior",
+    "profilePic": "assets/img/sponsors/lavoz.jpg",
+    "category": "Sponsor Difusión",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "email": "sponsor@fie.com",
+    "phone": "+1-541-754-3010",
+    "id": "10"
   }],
 
 

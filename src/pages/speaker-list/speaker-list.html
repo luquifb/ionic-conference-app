@@ -7,11 +7,11 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content class="outer-content speaker-list">
+<!-- <ion-content class="outer-content speaker-list">
   <ion-list [virtualScroll]="speakers">
     <ion-grid fixed>
       <ion-row align-items-stretch>
-        <ion-col col-12 col-md-6 align-self-stretch align-self-center *virtualItem="let speaker" approxItemHeight="457px">
+        <ion-col class="col-12 col-md-6 align-self-stretch align-self-center" *virtualItem="let speaker" approxItemHeight="457px">
           <ion-card class="speaker-card">
             <ion-card-header>
               <button ion-item detail-none (click)="goToSpeakerDetail(speaker)">
@@ -19,10 +19,29 @@
                   <img [src]="speaker.profilePic" alt="Speaker profile pic">
                 </ion-avatar>
                 {{speaker.name}}
-                <span>({{speaker.location}})</span>
               </button>
             </ion-card-header>
           </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-list>
+</ion-content> -->
+
+<ion-content class="card-background-page speaker-list">
+  <ion-list [virtualScroll]="speakers">
+    <ion-grid fixed>
+      <ion-row align-items-stretch>
+        <ion-col>
+
+          <ion-card *virtualItem="let speaker">
+            <button ion-item detail-none (click)="goToSpeakerDetail(speaker)">
+              <img src="../assets/img/logo-fie-2018.png" />
+              <div class="card-title">{{speaker.name}}</div>
+              <div class="card-subtitle">{{speaker.location}}</div>
+            </button>
+          </ion-card>
+
         </ion-col>
       </ion-row>
     </ion-grid>

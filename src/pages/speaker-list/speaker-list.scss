@@ -15,19 +15,47 @@ page-speaker-list {
     }
   }
 
-  // Todo: remove when this issue https://github.com/ionic-team/ionic/issues/11212 is fixed
-  @media(min-width: 769px) {
-    .speaker-card {
-      height: 370px;
-    }
+//   // Todo: remove when this issue https://github.com/ionic-team/ionic/issues/11212 is fixed
+//   @media(min-width: 769px) {
+//     .speaker-card {
+//       height: 370px;
+//     }
+//   }
+//
+//   .speaker-card ion-card-header .item {
+//     padding: 4px 16px;
+//   }
+//
+//   .speaker-card ion-card-content {
+//     padding-left: 0;
+//     padding-right: 0;
+//   }
+}
+
+.card-background-page {
+
+  ion-card {
+    position: relative;
+    text-align: center;
   }
 
-  .speaker-card ion-card-header .item {
-    padding: 4px 16px;
+  .card-title {
+    position: absolute;
+    top: 36%;
+    font-size: 1.2em;
+    width: 100%;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
   }
 
-  .speaker-card ion-card-content {
-    padding-left: 0;
-    padding-right: 0;
+  .card-subtitle {
+    font-size: 1.0em;
+    position: absolute;
+    top: 52%;
+    width: 100%;
+    color: #000;
+    text-align: center;
   }
+
 }
